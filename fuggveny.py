@@ -13,9 +13,12 @@ def number_of_spaces(text):
 
 def average(list_of_numbers):
     sum=0
-    for i in list_of_numbers:
-        sum += i
-    return sum/len(list_of_numbers)
+    if len(list_of_numbers)>0:
+        for i in list_of_numbers:
+            sum += i
+        return sum/len(list_of_numbers)
+    else:
+        return None
 
 def magangangzo_szam(text):
     count=0
@@ -26,8 +29,8 @@ def magangangzo_szam(text):
     return count
 
 
-hello_funcions()
-print(add_params(1,4))
-print(number_of_spaces("ez egy szoveg"))
-print(average([3, 5, 1]))
-print(magangangzo_szam("Árvíztűrő"))
+# hello_funcions()
+# print(add_params(1,4))
+# print(number_of_spaces("ez egy szoveg"))
+# print(average([3, 5, 1]))
+# print(magangangzo_szam("Árvíztűrő"))
