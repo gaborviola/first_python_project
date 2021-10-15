@@ -1,0 +1,3 @@
+
+try:
+    conn = mariadb.connect()

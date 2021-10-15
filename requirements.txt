@@ -1,1 +1,5 @@
 pytest
+requests
+selenium
+webdriver-manager
+mysql
